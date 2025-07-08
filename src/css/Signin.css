@@ -1,0 +1,59 @@
+.section-signin {
+  /* height: 50vh; */
+  padding-block: 4rem;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 5rem;
+  padding-top: 1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding-inline: 10px;
+}
+.signin-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+.signin-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  gap: 2rem;
+  justify-content: center;
+}
+.email-container {
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.email-container > label {
+  font-weight: bolder;
+}
+.password-container > label {
+  font-weight: bolder;
+}
+input {
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.password-container {
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.signin-btn-container {
+  font-size: 3rem;
+}
+@media screen and (max-width: 500px) {
+  .section-signin {
+    width: 100%;
+  }
+}

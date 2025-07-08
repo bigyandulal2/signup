@@ -1,0 +1,62 @@
+.dashboard {
+  width: 500px;
+  /* padding: 20px; */
+  /* min-height: 100vh; */
+  border: 5px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-inline: 2rem;
+  background-image: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.signin-btn-container {
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+  border-radius: 1000px;
+  transition: all 0.6s ease-in-out;
+  color: black;
+}
+.signin-btn-container > strong {
+  font-size: 3rem;
+  padding: 3rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signup-btn-container {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  color: grey;
+}
+.signup-btn-container > strong {
+  font-size: 3rem;
+  padding: 3rem;
+  border-radius: 6px;
+}
+.signin-btn-container:hover {
+  background-color: pink;
+  transform: scale(0.9);
+}
+.signup-btn-container:hover {
+  background-color: pink;
+  transform: scale(0.9);
+}
+.deep {
+  transform: scale(0.8);
+}
+
+@media screen and (max-width: 500px) {
+  .dashboard {
+    height: 50vh;
+  }
+}
